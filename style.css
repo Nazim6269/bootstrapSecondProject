@@ -1,0 +1,44 @@
+li:hover{
+    background-color: #8CBE45;
+}
+
+/* .navForm{
+    position: absolute;
+    right:1rem;
+} */
+
+/* #carImgOne{
+   height: 500px;
+   width: 300px;
+} */
+
+.carousel-inner{
+    /* width: 50%; */
+    margin: auto;
+    text-align: center;
+}
+.carouselFirst{
+    width: 50%;
+    margin: auto;
+}
+
+.boxOne, .boxTwo, .boxThree, .boxFour, .boxFive, .boxSix{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left:00px;}
+}
+
+#about-div {
+    position: relative;
+    animation-name: mymove;
+    animation-duration:2s;
+    animation-delay:.5s;
+    animation-iteration-count: 10;
+    animation-direction:alternate;
+    animation-timing-function:ease
+  }
+  
